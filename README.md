@@ -1,5 +1,7 @@
 # NeuralNetwork-for-Binary-Classification
 
+## Dataset: LBW_DATASET
+
 # Implementation: 
 
 1. The Neural network we implemented consists of 4 layers in total of which the 2 hidden layers contain 6 and 3 nodes respectively.
@@ -18,7 +20,7 @@
 # Detailed steps to run files: 
 
 1. PreProcess.py file has the code to implement pre rocessing of data, so initially run that to get preprocessed data which stores it into "PreProcessed_LBW"
-2. Read that csv into to get data in file named "PESU-MI_0087_0230.py" in src folder.
-3. Run "PESU-MI_0087_0230.py" which trains the model and tests to produce accuracy metrics such as confusion matrix and F1 score along with accuracy.
+2. Read that csv into to get data in file named "NeuralNet.py" in src folder.
+3. Run "NeuralNet.py" which trains the model and tests to produce accuracy metrics such as confusion matrix and F1 score along with accuracy.
 
 
