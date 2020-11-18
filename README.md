@@ -2,7 +2,7 @@
 
 ## Dataset: LBW_DATASET
 
-# Implementation: 
+<h3>Implementation:</h3> 
 
 1. The Neural network we implemented consists of 4 layers in total of which the 2 hidden layers contain 6 and 3 nodes respectively.
 2. We used Sigmoid and its derivative and Relu activation functions.
@@ -10,14 +10,14 @@
 4. We used Mean square error as our loss function.
 5. We update the weights and bias for the fixed learning rate until the model is well trained
 
-# Hyperparameters: 
+<h3>  Hyperparameters: </h3> 
 
 - Learning Rate : 0.01
 - No of epochs: 20000
 - Hidden layer 1: Conists 6 nodes
 - Hidden layer 2 : Consists 3 nodes
 
-# Detailed steps to run files: 
+<h3>  Detailed steps to run files: </h3> 
 
 1. PreProcess.py file has the code to implement pre rocessing of data, so initially run that to get preprocessed data which stores it into "PreProcessed_LBW"
 2. Read that csv into to get data in file named "NeuralNet.py" in src folder.
