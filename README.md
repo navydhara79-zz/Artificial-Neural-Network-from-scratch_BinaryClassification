@@ -3,7 +3,7 @@
 ## Dataset: LBW_DATASET
 
 <h3>Implementation:</h3> 
-
+- What are used: Just pandas and numpy, scikit for train_test_split.
 1. The Neural network we implemented consists of 4 layers in total of which the 2 hidden layers contain 6 and 3 nodes respectively.
 2. We used Sigmoid and its derivative and Relu activation functions.
 3. Sigmoid is used for forward propagation and sigmoid_derivative is used in back proagation
